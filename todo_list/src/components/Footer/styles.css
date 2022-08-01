@@ -1,0 +1,14 @@
+.footer{
+    color: white;
+    background-color: rgb(63, 33, 33);
+    height: 40px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

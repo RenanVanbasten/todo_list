@@ -1,0 +1,29 @@
+ul.todo-list li{
+    display: flex;
+    border-bottom: 1px solid #dfe6e9;
+}
+
+.todo {
+    flex: 1;
+    outline: none;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    word-break: break-all;
+    line-height: 1.2;
+    transition: color 0.3s;
+    padding: 15px 15px 17px 15px;
+}
+.todo.checked{
+    text-decoration: line-through;
+    color: #c7d9e0;
+}
+.remove {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 50px;
+    color: #ff7675;
+}
